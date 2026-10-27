@@ -10,7 +10,7 @@ print(keliling_persegi(10,4))
 
 #fungsi angka
 def format_angka(angka):
-    return f"{angka:,}"
+    return f"{angka:,}".replace (",",".")
 print(format_angka(125000))
 
 #cek stok
